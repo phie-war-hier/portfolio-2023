@@ -9,11 +9,15 @@
 	<script src="script.js" defer></script>
 </head>
 <body>
+	<div class="cursors">
+		<div>
+			<span></span>
+		</div>
+	</div>
 	<div class="header">
 		<details>
 			<summary>sophie humbert <div class="pfeil-oben">&#10138;</div><div class="pfeil-unten">&#10136;</div></summary>
 			<div class="grid">
-
 				<div class="extra">
 					<a href="mailto:soso-huhu@posteo.de">soso-huhu@posteo.de <span>&#10138;</span></a><br />
 					<br />
@@ -22,27 +26,6 @@
 					<a target="_blank" href="https://www.behance.net/sophiehumbert1">behance <span>&#10138;</span> </a>
 					<br />
 					<br />
-					<!--
-						<form action="kontaktform.php" method="post">		
-							<div class="about text">
-								<label for="name">name<span class="stern">*</span></label>
-								<input id="name" type="text" name="name" maxlength="30">
-							</div>
-							<div class="about text">
-								<label for="mail">mail<span class="stern">*</span></label>
-								<input id="mail" type="text" name="mail" maxlength="30">
-							</div>
-							<div class="about text">
-								<label for="betreff">subject</label>
-								<input id="betreff" type="text" name="betreff" maxlength="30">
-							</div>
-							<div class="about text">
-								<label for="nachricht">message<span class="stern">*</span></label>
-								<textarea id="nachricht" rows="6" name="nachricht"></textarea>
-							</div>		
-							<button id="absenden" type="submit" name="submit">senden</button>	
-						</form>
-					-->
 				</div>
 				<div>
 					<p>ich studiere gerade kommunikationsdesign an der <a target="_blank" href="https://www.gestaltung.hs-mannheim.de/">fakultät für gestaltung in mannheim &#10138;</a> mein werdegang ist noch relativ klein – ich habe 2019 ein praktikum in der agentur <a target="_blank" href="https://www.mark-lotse.com/">mark lotse &#10138;</a> gemacht und dort lust auf illustration, kommunikation und webentwicklung bekommen. im wintersemester 20/21 habe ich angefangen kommunikationsdesign zu studieren. im laufe des studiums lege ich meine schwerpunkte auf interaktives, creative coding, editoral design, das gestalten von räumen und wie ich diese leidenschaften verbinden kann.</p>
@@ -53,7 +36,9 @@
 			</div>
 		</details>
 		<div class="nav">
-			<a href="index.html"><button class="p1" data-projekt="1">alle projekte</button></a>
+			<a href="index.html">
+				<button class="p1" data-projekt="1">alle projekte</button>
+			</a>
 		</div>
 	</div>
 	<div class="grid">
@@ -77,14 +62,14 @@
 			</p>
 		</div>
 		<div>
-			<form action="kontaktform.php" method="post">		
+			<!--<form action="kontaktform.php" method="post">		
 				<div class="about text">
 					<label for="name">name*</label>
-					<input id="name" type="text" name="name" maxlength="30">
+					<input id="name" type="text" name="name" maxlength="30" required>
 				</div>
 				<div class="about text">
-					<label for="mail">mail*</label>
-					<input id="mail" type="text" name="mail" maxlength="30">
+					<label for="mail">e-mail*</label>
+					<input id="mail" type="text" name="mail" maxlength="30" required>
 				</div>
 				<div class="about text">
 					<label for="betreff">betreff</label>
@@ -92,10 +77,10 @@
 				</div>
 				<div class="about text">
 					<label for="nachricht">nachricht*</label>
-					<textarea id="nachricht" rows="6" name="nachricht"></textarea>
+					<textarea id="nachricht" rows="6" name="nachricht"></textarea required>
 				</div>		
 				<button id="absenden" type="submit" name="submit">senden</button>	
-			</form>
+			</form>-->
 		</div>			
 	</div>
 	<div class="footer">

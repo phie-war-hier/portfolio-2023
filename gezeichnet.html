@@ -9,6 +9,11 @@
 	<script src="script.js" defer></script>
 </head>
 <body>
+	<div class="cursors">
+		<div>
+			<span></span>
+		</div>
+	</div>
 	<div class="header">
 		<details>
 			<summary>sophie humbert <div class="pfeil-oben">&#10138;</div><div class="pfeil-unten">&#10136;</div></summary>
@@ -22,33 +27,20 @@
 					<a target="_blank" href="https://www.behance.net/sophiehumbert1">behance <span>&#10138;</span> </a>
 					<br />
 					<br />
-					<!--
-						<form action="kontaktform.php" method="post">		
-							<div class="about text">
-								<label for="name">name<span class="stern">*</span></label>
-								<input id="name" type="text" name="name" maxlength="30">
-							</div>
-							<div class="about text">
-								<label for="mail">mail<span class="stern">*</span></label>
-								<input id="mail" type="text" name="mail" maxlength="30">
-							</div>
-							<div class="about text">
-								<label for="betreff">subject</label>
-								<input id="betreff" type="text" name="betreff" maxlength="30">
-							</div>
-							<div class="about text">
-								<label for="nachricht">message<span class="stern">*</span></label>
-								<textarea id="nachricht" rows="6" name="nachricht"></textarea>
-							</div>		
-							<button id="absenden" type="submit" name="submit">senden</button>	
-						</form>
-					-->
 				</div>
 				<div>
 					<p>ich studiere gerade kommunikationsdesign an der <a target="_blank" href="https://www.gestaltung.hs-mannheim.de/">fakultät für gestaltung in mannheim &#10138;</a> mein werdegang ist noch relativ klein – ich habe 2019 ein praktikum in der agentur <a target="_blank" href="https://www.mark-lotse.com/">mark lotse &#10138;</a> gemacht und dort lust auf illustration, kommunikation und webentwicklung bekommen. im wintersemester 20/21 habe ich angefangen kommunikationsdesign zu studieren. im laufe des studiums lege ich meine schwerpunkte auf interaktives, creative coding, editoral design, das gestalten von räumen und wie ich diese leidenschaften verbinden kann.</p>
 				</div>
 				<div class="extra">
-					<img alt="sophie humbert design portrait schwarz-weiß" src="img/sh-portrait-sophie-humbert.jpg">
+					<img 
+						alt="sophie humbert design portrait schwarz-weiß" 
+						src="img/sh-portrait-sophie-humbert-800.webp" 
+						srcset="
+							img/sh-portrait-sophie-humbert-400.webp 400w, 
+							img/sh-portrait-sophie-humbert-800.webp 800w, 
+							img/sh-portrait-sophie-humbert-1080.webp 1080w, 
+							img/sh-portrait-sophie-humbert-1920.webp 1920w"
+						sizes="(min-with: 700px) 65vw, (min-width: 1200px) 40vw, 100vw"> 
 				</div>
 			</div>
 		</details>
@@ -58,7 +50,15 @@
 	</div>
 	<div class="grid">
 		<div class="gezeichnet-img-1">
-			<img alt="editoral magazin typografie" src="img/sh-gezeichnet-typografie.jpg">
+			<img 
+				alt="editoral magazin typografie" 
+				src="img/sh-gezeichnet-typografie-800.webp" 
+				srcset="
+					img/sh-gezeichnet-typografie-400.webp 400w, 
+					img/sh-gezeichnet-typografie-800.webp 800w, 
+					img/sh-gezeichnet-typografie-1080.webp 1080w, 
+					img/sh-gezeichnet-typografie-1920.webp 1920w"
+				sizes="(min-with: 700px) 65vw, (min-width: 1200px) 40vw, 100vw">
 		</div>
 		<div>
 			<p>gezeichnet – das magazin und ich. plakativ, überraschend, anders als geplant und gedacht? mein magazin »gezeichnet«, aus dem zweiten semester an der fakultät für gestaltung wurde es. und das nicht durch das schicksal oder durch »fake it till you make it«. es wurde gezeichnet in diesem semester – gestaltet. auf teufel komm raus, mit stift, mit typografie und auch mal mit grüblerischer laune in die zukunft blickend. gescribbelt – erste entwürfe gemacht, auch mit ein bisschen zufall und der devise 1 + 1 = 3,142. ich durfte ausprobieren, neues machen, andere lösungen finden und auch von vorne beginnen, egal ob mit dem radiergummi, einem roten kreuz in der oberen, rechten ecke oder dem papierkorb. »restart the system« – auch für das magazin: nach klarheit und sachlicher strenge im informationsdesign musste aufgedreht werden.</p>
@@ -66,14 +66,39 @@
 		<div></div>
 		<div></div>
 		<div>
-			<img alt="editoral magazin farbe" src="img/sh-gezeichnet-farbe.jpg">
+			<img 
+				alt="editoral magazin farbe" 
+				src="img/sh-gezeichnet-farbe-800.webp" 
+				srcset="
+					img/sh-gezeichnet-farbe-400.webp 400w, 
+					img/sh-gezeichnet-farbe-800.webp 800w, 
+					img/sh-gezeichnet-farbe-1080.webp 1080w, 
+					img/sh-gezeichnet-farbe-1920.webp 1920w"
+				sizes="(min-with: 700px) 65vw, (min-width: 1200px) 40vw, 100vw">
 		</div>
 		<div></div>
+		<div></div>
 		<div>
-			<img alt="editoral magazin muse" src="img/sh-gezeichnet-muse.jpg">
+			<img 
+				alt="editoral magazin muse" 
+				src="img/sh-gezeichnet-muse-800.webp" 
+				srcset="
+					img/sh-gezeichnet-muse-400.webp 400w, 
+					img/sh-gezeichnet-muse-800.webp 800w, 
+					img/sh-gezeichnet-muse-1080.webp 1080w, 
+					img/sh-gezeichnet-muse-1920.webp 1920w"
+				sizes="(min-with: 700px) 65vw, (min-width: 1200px) 40vw, 100vw">
 		</div>
-		<div alt="editoral magazin interview" class="gezeichnet-img-2">
-			<img src="img/sh-gezeichnet-interview.jpg">
+		<div class="gezeichnet-img-2">
+			<img 
+				alt="editoral magazin interview" 
+				src="img/sh-gezeichnet-interview-800.webp" 
+				srcset="
+					img/sh-gezeichnet-interview-400.webp 400w, 
+					img/sh-gezeichnet-interview-800.webp 800w, 
+					img/sh-gezeichnet-interview-1080.webp 1080w, 
+					img/sh-gezeichnet-interview-1920.webp 1920w"
+				sizes="(min-with: 700px) 65vw, (min-width: 1200px) 40vw, 100vw">
 		</div>
 		<div></div>	
 		<div>
@@ -85,9 +110,17 @@
 		<div></div>
 		<div></div>
 		<div></div>
-		<div></div>
-		<div><img alt="editoral magazin creative coding" src="img/sh-gezeichnet-creativecoding.jpg"></div>
-		
+		<div>
+			<img 
+				alt="editoral magazin creative coding" 
+				src="img/sh-gezeichnet-creativecoding-800.webp" 
+				srcset="
+					img/sh-gezeichnet-creativecoding-400.webp 400w, 
+					img/sh-gezeichnet-creativecoding-800.webp 800w, 
+					img/sh-gezeichnet-creativecoding-1080.webp 1080w, 
+					img/sh-gezeichnet-creativecoding-1920.webp 1920w"
+				sizes="(min-with: 700px) 65vw, (min-width: 1200px) 40vw, 100vw">
+		</div>
 	</div>
 	<div class="footer">
 		<p>

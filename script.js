@@ -1,6 +1,3 @@
-
-
-
 var projekte = document.querySelectorAll('.content > div');
 var navButtons = document.querySelectorAll('.nav button');
 
@@ -82,3 +79,8 @@ images.forEach(image => {
 	});
 
 });
+
+
+
+
+

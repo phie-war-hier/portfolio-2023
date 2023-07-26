@@ -9,6 +9,11 @@
 	<script src="script.js" defer></script>
 </head>
 <body>
+	<div class="cursors">
+		<div>
+			<span></span>
+		</div>
+	</div>
 	<div class="header">
 	<details>
 			<summary>sophie humbert <div class="pfeil-oben">&#10138;</div><div class="pfeil-unten">&#10136;</div></summary>
@@ -21,34 +26,21 @@
 					<br />
 					<a target="_blank" href="https://www.behance.net/sophiehumbert1">behance <span>&#10138;</span> </a>
 					<br />
-					<br />
-					<!--
-						<form action="kontaktform.php" method="post">		
-							<div class="about text">
-								<label for="name">name<span class="stern">*</span></label>
-								<input id="name" type="text" name="name" maxlength="30">
-							</div>
-							<div class="about text">
-								<label for="mail">mail<span class="stern">*</span></label>
-								<input id="mail" type="text" name="mail" maxlength="30">
-							</div>
-							<div class="about text">
-								<label for="betreff">subject</label>
-								<input id="betreff" type="text" name="betreff" maxlength="30">
-							</div>
-							<div class="about text">
-								<label for="nachricht">message<span class="stern">*</span></label>
-								<textarea id="nachricht" rows="6" name="nachricht"></textarea>
-							</div>		
-							<button id="absenden" type="submit" name="submit">senden</button>	
-						</form>
-					-->
+					<br />		
 				</div>
 				<div>
 					<p>ich studiere gerade kommunikationsdesign an der <a target="_blank" href="https://www.gestaltung.hs-mannheim.de/">fakultät für gestaltung in mannheim &#10138;</a> mein werdegang ist noch relativ klein – ich habe 2019 ein praktikum in der agentur <a target="_blank" href="https://www.mark-lotse.com/">mark lotse &#10138;</a> gemacht und dort lust auf illustration, kommunikation und webentwicklung bekommen. im wintersemester 20/21 habe ich angefangen kommunikationsdesign zu studieren. im laufe des studiums lege ich meine schwerpunkte auf interaktives, creative coding, editoral design, das gestalten von räumen und wie ich diese leidenschaften verbinden kann.</p>
 				</div>
 				<div class="extra">
-					<img alt="sophie humbert design portrait schwarz-weiß" src="img/sh-portrait-sophie-humbert.jpg">
+					<img 
+						alt="sophie humbert design portrait schwarz-weiß" 
+						src="img/sh-portrait-sophie-humbert-800.webp" 
+						srcset="
+							img/sh-portrait-sophie-humbert-400.webp 400w, 
+							img/sh-portrait-sophie-humbert-800.webp 800w, 
+							img/sh-portrait-sophie-humbert-1080.webp 1080w, 
+							img/sh-portrait-sophie-humbert-1920.webp 1920w"
+						sizes="(min-with: 700px) 65vw, (min-width: 1200px) 40vw, 100vw"> 
 				</div>
 			</div>
 		</details>
@@ -58,7 +50,15 @@
 	</div>
 	<div class="grid">
 		<div class="rocketdeployer-img">
-			<img alt="rocket deployer produktbild blender rendering" src="img/sh-rocketdeployer-coverbild.png">
+			<img 
+				alt="rocket deployer produktbild blender rendering" 
+				src="img/sh-rocketdeployer-coverbild-800.webp"
+				srcset="
+					img/sh-rocketdeployer-coverbild-400.webp 400w, 
+					img/sh-rocketdeployer-coverbild-800.webp 800w, 
+					img/sh-rocketdeployer-coverbild-1080.webp 1080w, 
+					img/sh-rocketdeployer-coverbild-1920.webp 1920w"
+				sizes="(min-with: 700px) 65vw, (min-width: 1200px) 40vw, 100vw">
 		</div>
 		<div></div>
 		<div>
@@ -69,7 +69,15 @@
 		<div></div>
 		<div></div>
 		<div class="rocketdeployer-img-2">
-			<img alt="rocket deployer software messestand blender rendering" src="img/sh-rocketdeployer-messestand.png">
+			<img 
+				alt="rocket deployer software messestand blender rendering" 
+				src="img/sh-rocketdeployer-messestand-800.webp"
+				srcset="
+					img/sh-rocketdeployer-messestand-400.webp 400w, 
+					img/sh-rocketdeployer-messestand-800.webp 800w, 
+					img/sh-rocketdeployer-messestand-1080.webp 1080w, 
+					img/sh-rocketdeployer-messestand-1920.webp 1920w"
+				sizes="(min-with: 700px) 65vw, (min-width: 1200px) 40vw, 100vw">
 		</div>
 		<div>
 			<p>das produkt rocket deployer wurde in kooperation mit einem unternehmen im softwareentwicklungsprojekt des sommersemesters 2023 an der hochschule mannheim entwickelt. das projekt ist eine kooperation zwischen dem fachbereich informatik und dem fachbereich design und einem externen kunden. betreut wurde der kurs von prof. knauber, prof. schramm und prof. wöhlbier.</p>
@@ -78,27 +86,50 @@
 		</div>
 		<div></div>
 		<div></div>
-		<div></div>
-		<div>
-			<img alt="rocket deployer cards blender rendering" src="img/sh-rocketdeployer-cards.png">
-		</div>
-		<div></div>
-		<div></div>
-		<div>
-			<img alt="rocket deployer key blender rendering" src="img/sh-rocketdeployer-key.png">
-		</div>
-		<div></div>
-		<div></div>
-		<div>
-			<img alt="rocket deployer button blender rendering" src="img/sh-rocketdeployer-button.png">
-		</div>
-		<div></div>
-		<div></div>
 		<div>
 			<video controls width="100%">
 				<source src="img/sh-rocketdeployer-video-animation.mp4" type="video/mp4">
 			</video>
 		</div>	
+		<div></div>
+		<div></div>
+		<div>
+			<img 
+				alt="rocket deployer cards blender rendering" 
+				src="img/sh-rocketdeployer-cards-800.webp"
+				srcset="
+					img/sh-rocketdeployer-cards-400.webp 400w, 
+					img/sh-rocketdeployer-cards-800.webp 800w, 
+					img/sh-rocketdeployer-cards-1080.webp 1080w, 
+					img/sh-rocketdeployer-cards-1920.webp 1920w"
+				sizes="(min-with: 700px) 65vw, (min-width: 1200px) 40vw, 100vw">
+		</div>
+		<div></div>
+		<div></div>
+		<div>
+			<img 
+				alt="rocket deployer key blender rendering" 
+				src="img/sh-rocketdeployer-key-800.webp"
+				srcset="
+					img/sh-rocketdeployer-key-400.webp 400w, 
+					img/sh-rocketdeployer-key-800.webp 800w, 
+					img/sh-rocketdeployer-key-1080.webp 1080w, 
+					img/sh-rocketdeployer-key-1920.webp 1920w"
+				sizes="(min-with: 700px) 65vw, (min-width: 1200px) 40vw, 100vw">
+		</div>
+		<div></div>
+		<div></div>
+		<div>
+			<img 
+				alt="rocket deployer button blender rendering" 
+				src="img/sh-rocketdeployer-button-800.webp"
+				srcset="
+					img/sh-rocketdeployer-button-400.webp 400w, 
+					img/sh-rocketdeployer-button-800.webp 800w, 
+					img/sh-rocketdeployer-button-1080.webp 1080w, 
+					img/sh-rocketdeployer-button-1920.webp 1920w"
+				sizes="(min-with: 700px) 65vw, (min-width: 1200px) 40vw, 100vw">
+		</div>
 	</div>
 	<div class="footer">
 		<p>
