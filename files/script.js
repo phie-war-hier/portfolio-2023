@@ -1,9 +1,4 @@
-window.addEventListener("load", function () {
-	if (window.location == "https://sophie-was-here.de") {
-		window.location.href = 'https://www.so-phie.de'; 
-	}
-});
-
+window.location.replace('http://www.so-phie.de'); 
 
 
 var projekte = document.querySelectorAll('.content > div');
