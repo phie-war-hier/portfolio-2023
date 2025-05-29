@@ -1,6 +1,10 @@
-if (window.location == "https://sophie-was-here.de") {
-   window.location.href = 'https://www.so-phie.de'; 
-}
+window.addEventListener("load", function () {
+	if (window.location == "https://sophie-was-here.de") {
+		window.location.href = 'https://www.so-phie.de'; 
+	}
+});
+
+
 
 var projekte = document.querySelectorAll('.content > div');
 var navButtons = document.querySelectorAll('.nav button');
