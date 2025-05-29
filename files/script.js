@@ -1,5 +1,5 @@
-if (window.location.href== "https://sophie-was-here.de/") {
-   window.location.href = 'https://www.so-phie.de/'; 
+if (window.location.href== "https://sophie-was-here.de") {
+   window.location.href = 'https://www.so-phie.de'; 
 }
 
 var projekte = document.querySelectorAll('.content > div');
